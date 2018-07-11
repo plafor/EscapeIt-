@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<Profile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="Profile">
+  <nbLevel>5</nbLevel>
+  <Skills>
+    <Skill name="B3">
+      <active>true</active>
+      <mastery>Beginner</mastery>
+      <acquired>false</acquired>
+    </Skill>
+    <Skill name="B4">
+      <active>true</active>
+      <mastery>Beginner</mastery>
+      <acquired>false</acquired>
+    </Skill>
+    <Skill name="B8">
+      <active>true</active>
+      <mastery>Beginner</mastery>
+      <acquired>false</acquired>
+    </Skill>
+    <Skill name="B9">
+      <active>true</active>
+      <mastery>Beginner</mastery>
+      <acquired>false</acquired>
+    </Skill>
+    <Skill name="B13">
+      <active>true</active>
+      <mastery>Beginner</mastery>
+      <acquired>false</acquired>
+    </Skill>
+    <Skill name="B19">
+      <active>true</active>
+      <mastery>Beginner</mastery>
+      <acquired>false</acquired>
+    </Skill>
+    <Skill name="B25">
+      <active>true</active>
+      <mastery>Beginner</mastery>
+      <acquired>false</acquired>
+    </Skill>
+  </Skills>
+</Profile>

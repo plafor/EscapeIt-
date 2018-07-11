@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="ASCII"?>
+<flatModel4Unity:Game xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:flatModel4Unity="flatModel4Unity">
+  <level scene="Bedroom" nbElementsToPlace="14" difficulty="EXPERT">
+    <placeddecor name="poster"/>
+    <placeddecor name="Cabinet">
+      <element pos="UnderCabinetLeft" name="footBall"/>
+      <hideout name="downDrawer" pos="">
+        <element pos="drawerHiddenPlace2" name="teddybearbig"/>
+        <element pos="drawerHiddenPlace" name="basketBall"/>
+      </hideout>
+      <hideout name="topDrawer" pos="">
+        <element pos="drawerHiddenPlace" name="basketBall"/>
+      </hideout>
+    </placeddecor>
+    <hideout name="pillow" pos="P1">
+      <element pos="HiddenPlacePillow1" name="basketBall"/>
+    </hideout>
+    <hideout name="garbage" pos="P5">
+      <element pos="HiddenPlaceGarbage1" name="footBall"/>
+    </hideout>
+    <hideout name="garbage" pos="P7">
+      <element pos="HiddenPlaceGarbage1" name="teddybearbig"/>
+    </hideout>
+    <hideout name="garbage" pos="P4">
+      <element pos="HiddenPlaceGarbage1" name="footBall"/>
+    </hideout>
+    <hideout name="pillow" pos="P9">
+      <element pos="HiddenPlacePillow1" name="basketBall"/>
+    </hideout>
+    <hideout name="pillow" pos="UnderCabinetRight">
+      <element pos="HiddenPlacePillow1" name="footBall"/>
+    </hideout>
+    <hideout name="garbage" pos="P6">
+      <element pos="HiddenPlaceGarbage1" name="basketBall"/>
+    </hideout>
+    <element pos="P3" name="basketBall"/>
+    <element pos="P8" name="basketBall"/>
+    <element pos="P2" name="basketBall"/>
+    <solutionobject pos="S4" name="cubicStorage" acceptedElements="teddybears" targetedSkill="B8" nbSol2Find="2"/>
+    <solutionobject pos="S2" name="cubicStorage" acceptedElements="Balls" targetedSkill="B8" nbSol2Find="12"/>
+  </level>
+  <level scene="Kitchen-1" nbElementsToPlace="18" difficulty="EXPERT">
+    <placeddecor name="FridgePostit1"/>
+    <placeddecor name="CookerHood"/>
+    <placeddecor name="FlowerPot"/>
+    <placeddecor name="CuttingBoard"/>
+    <placeddecor name="rags"/>
+    <placeddecor name="Microwave">
+      <element pos="MicrowavePos1" name="GreenGlass"/>
+    </placeddecor>
+    <hideout name="MarketBag" pos="B9">
+      <element pos="Bag1" name="BlueGlass"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B2">
+      <element pos="Bag2" name="BlueGlass"/>
+      <element pos="Bag1" name="RedGlass"/>
+    </hideout>
+    <hideout name="MarketBag" pos="CBPos1">
+      <element pos="Bag1" name="RedGlass"/>
+      <element pos="Bag2" name="GreenGlass"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B4">
+      <element pos="Bag2" name="GreenGlass"/>
+      <element pos="Bag1" name="BlueGlass"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B5">
+      <element pos="Bag2" name="GreenPlate"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B6">
+      <element pos="Bag1" name="BlueGlass"/>
+      <element pos="Bag2" name="RedPlate"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B3">
+      <element pos="Bag1" name="GreenGlass"/>
+      <element pos="Bag2" name="BlueGlass"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B1">
+      <element pos="Bag2" name="GreenGlass"/>
+      <element pos="Bag1" name="BlueGlass"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B7">
+      <element pos="Bag2" name="BlueGlass"/>
+      <element pos="Bag1" name="RedPlate"/>
+    </hideout>
+    <element pos="B8" name="BlueGlass"/>
+    <solutionobject pos="SolTopPlates" name="WallCupboardOpenedGlassesSol" acceptedElements="Glasses" targetedSkill="B8" nbSol2Find="15"/>
+    <solutionobject pos="SolTopGlasses" name="WallCupboardOpenedPlatesSol" acceptedElements="Plates" targetedSkill="B8" nbSol2Find="3"/>
+  </level>
+  <level scene="Kitchen-1" nbElementsToPlace="9" difficulty="EXPERT">
+    <placeddecor name="FridgePostit1"/>
+    <placeddecor name="CookerHood"/>
+    <placeddecor name="FlowerPot"/>
+    <placeddecor name="Microwave">
+      <element pos="MicrowavePos1" name="GreenGlass"/>
+    </placeddecor>
+    <hideout name="MarketBag" pos="B2">
+      <element pos="Bag1" name="BlueGlass"/>
+      <element pos="Bag2" name="GreenGlass"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B3"/>
+    <element pos="B4" name="RedGlass"/>
+    <element pos="B1" name="RedPlate"/>
+    <element pos="B7" name="RedPlate"/>
+    <element pos="B8" name="RedPlate"/>
+    <element pos="B5" name="GreenPlate"/>
+    <element pos="B9" name="GreenPlate"/>
+    <solutionobject pos="SolTopGlasses" name="WallCupboardOpenedGlassesSol" acceptedElements="Glasses" targetedSkill="B8" nbSol2Find="4"/>
+    <solutionobject pos="SolTopPlates" name="WallCupboardOpenedPlatesSol" acceptedElements="Plates" targetedSkill="B8" nbSol2Find="5"/>
+  </level>
+  <level scene="Bedroom" nbElementsToPlace="8" difficulty="EXPERT">
+    <placeddecor name="clock"/>
+    <placeddecor name="desk">
+      <element pos="D2" name="basketBall"/>
+    </placeddecor>
+    <hideout name="garbage" pos="P5">
+      <element pos="HiddenPlaceGarbage1" name="teddybearsmall"/>
+    </hideout>
+    <hideout name="garbage" pos="P3">
+      <element pos="HiddenPlaceGarbage1" name="teddybearsmall"/>
+    </hideout>
+    <hideout name="garbage" pos="P6">
+      <element pos="HiddenPlaceGarbage1" name="teddybearbig"/>
+    </hideout>
+    <hideout name="garbage" pos="P4"/>
+    <hideout name="pillow" pos="D3">
+      <element pos="HiddenPlacePillow1" name="teddybearsmall"/>
+    </hideout>
+    <hideout name="garbage" pos="P9"/>
+    <element pos="P7" name="teddybearsmall"/>
+    <element pos="P8" name="teddybearsmall"/>
+    <element pos="P2" name="teddybearbig"/>
+    <solutionobject pos="S4" name="cubicStorage" acceptedElements="Balls" targetedSkill="B8" nbSol2Find="1"/>
+    <solutionobject pos="S2" name="cubicStorage" acceptedElements="teddybears" targetedSkill="B8" nbSol2Find="7"/>
+  </level>
+</flatModel4Unity:Game>

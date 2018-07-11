@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="ASCII"?>
+<flatModel4Unity:Game xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:flatModel4Unity="flatModel4Unity">
+  <level scene="Kitchen-1" nbElementsToPlace="20" difficulty="EXPERT">
+    <placeddecor name="FridgePostit1"/>
+    <placeddecor name="CookerHood"/>
+    <placeddecor name="FlowerPot"/>
+    <placeddecor name="CuttingBoard">
+      <element pos="CBPos1" name="spoon"/>
+    </placeddecor>
+    <placeddecor name="WallCupboardClosed"/>
+    <placeddecor name="Mixer"/>
+    <placeddecor name="Microwave"/>
+    <hideout name="MarketBag" pos="B8">
+      <element pos="Bag1" name="watermelon"/>
+      <element pos="Bag2" name="greenapple"/>
+    </hideout>
+    <hideout name="MarketBag" pos="MixerPos1">
+      <element pos="Bag2" name="bananas"/>
+      <element pos="Bag1" name="bananas"/>
+    </hideout>
+    <hideout name="MarketBag" pos="MicrowavePos1">
+      <element pos="Bag2" name="bananas"/>
+      <element pos="Bag1" name="greenapple"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B7">
+      <element pos="Bag1" name="fork"/>
+      <element pos="Bag2" name="fork"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B1">
+      <element pos="Bag1" name="knife"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B3">
+      <element pos="Bag1" name="grapes"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B2">
+      <element pos="Bag1" name="greengrapes"/>
+    </hideout>
+    <hideout name="MarketBag" pos="WCBPos1">
+      <element pos="Bag1" name="greenapple"/>
+      <element pos="Bag2" name="grapes"/>
+    </hideout>
+    <hideout name="MarketBag" pos="WCBPos2">
+      <element pos="Bag1" name="greengrapes"/>
+      <element pos="Bag2" name="greengrapes"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B4">
+      <element pos="Bag2" name="bananas"/>
+      <element pos="Bag1" name="spoon"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B9"/>
+    <element pos="B5" name="watermelon"/>
+    <element pos="B6" name="watermelon"/>
+    <solutionobject pos="SolFruitBasket" name="FruitBasketSol" acceptedElements="fruits" targetedSkill="B19" nbSol2Find="15"/>
+    <solutionobject pos="SolCutleryDrawer" name="CutleryDrawer" acceptedElements="cutlery" targetedSkill="B19" nbSol2Find="5"/>
+  </level>
+  <level scene="Kitchen-1" nbElementsToPlace="6" difficulty="EXPERT">
+    <placeddecor name="CuttingBoard">
+      <element pos="CBPos1" name="bananas"/>
+    </placeddecor>
+    <placeddecor name="WallCupboardClosed"/>
+    <placeddecor name="Mixer"/>
+    <hideout name="MarketBag" pos="WCBPos2"/>
+    <hideout name="MarketBag" pos="B6"/>
+    <element pos="B4" name="greenapple"/>
+    <element pos="B3" name="grapes"/>
+    <element pos="B1" name="grapes"/>
+    <element pos="B7" name="watermelon"/>
+    <element pos="B8" name="spoon"/>
+    <solutionobject pos="SolFruitBasket" name="FruitBasketSol" acceptedElements="fruits" targetedSkill="B19" nbSol2Find="5"/>
+    <solutionobject pos="SolCutleryDrawer" name="CutleryDrawer" acceptedElements="cutlery" targetedSkill="B19" nbSol2Find="1"/>
+  </level>
+  <level scene="Kitchen-1" nbElementsToPlace="12" difficulty="EXPERT">
+    <placeddecor name="FlowerPot"/>
+    <placeddecor name="Table">
+      <element pos="T3" name="greenapple"/>
+      <element pos="T1" name="grapes"/>
+    </placeddecor>
+    <hideout name="MarketBag" pos="B9">
+      <element pos="Bag2" name="grapes"/>
+    </hideout>
+    <hideout name="MarketBag" pos="T2">
+      <element pos="Bag2" name="greenapple"/>
+      <element pos="Bag1" name="watermelon"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B8">
+      <element pos="Bag2" name="greengrapes"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B5">
+      <element pos="Bag2" name="grapes"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B4">
+      <element pos="Bag2" name="spoon"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B3">
+      <element pos="Bag2" name="bananas"/>
+      <element pos="Bag1" name="greenapple"/>
+    </hideout>
+    <element pos="B1" name="greenapple"/>
+    <element pos="B2" name="watermelon"/>
+    <solutionobject pos="SolFruitBasket" name="FruitBasketSol" acceptedElements="fruits" targetedSkill="B19" nbSol2Find="11"/>
+    <solutionobject pos="SolCutleryDrawer" name="CutleryDrawer" acceptedElements="cutlery" targetedSkill="B19" nbSol2Find="1"/>
+  </level>
+  <level scene="Kitchen-1" nbElementsToPlace="10" difficulty="EXPERT">
+    <placeddecor name="CookerHood"/>
+    <placeddecor name="FlowerPot"/>
+    <placeddecor name="CuttingBoard">
+      <element pos="CBPos1" name="fork"/>
+    </placeddecor>
+    <placeddecor name="rags"/>
+    <placeddecor name="Mixer">
+      <element pos="MixerPos1" name="spoon"/>
+    </placeddecor>
+    <placeddecor name="Microwave">
+      <element pos="MicrowavePos1" name="knife"/>
+    </placeddecor>
+    <hideout name="MarketBag" pos="B6">
+      <element pos="Bag1" name="fork"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B1">
+      <element pos="Bag1" name="fork"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B7"/>
+    <element pos="B8" name="greenapple"/>
+    <element pos="B9" name="watermelon"/>
+    <element pos="B4" name="fork"/>
+    <element pos="B2" name="spoon"/>
+    <element pos="B5" name="fork"/>
+    <solutionobject pos="SolFruitBasket" name="FruitBasketSol" acceptedElements="fruits" targetedSkill="B19" nbSol2Find="2"/>
+    <solutionobject pos="SolCutleryDrawer" name="CutleryDrawer" acceptedElements="cutlery" targetedSkill="B19" nbSol2Find="8"/>
+  </level>
+</flatModel4Unity:Game>

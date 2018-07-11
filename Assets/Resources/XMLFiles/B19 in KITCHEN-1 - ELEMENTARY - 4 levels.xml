@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ASCII"?>
+<flatModel4Unity:Game xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:flatModel4Unity="flatModel4Unity">
+  <level scene="Kitchen-1" nbElementsToPlace="2" difficulty="ELEMENTARY">
+    <placeddecor name="FridgePostit1"/>
+    <placeddecor name="FridgePostit2"/>
+    <placeddecor name="CookerHood"/>
+    <placeddecor name="CuttingBoard"/>
+    <placeddecor name="rags"/>
+    <placeddecor name="Mixer">
+      <element pos="MixerPos1" name="knife"/>
+    </placeddecor>
+    <placeddecor name="Microwave"/>
+    <element pos="B1" name="watermelon"/>
+    <solutionobject pos="SolFruitBasket" name="FruitBasketSol" acceptedElements="fruits" targetedSkill="B19" nbSol2Find="1"/>
+    <solutionobject pos="SolCutleryDrawer" name="CutleryDrawer" acceptedElements="cutlery" targetedSkill="B19" nbSol2Find="1"/>
+  </level>
+  <level scene="Kitchen-1" nbElementsToPlace="2" difficulty="ELEMENTARY">
+    <placeddecor name="FridgePostit1"/>
+    <placeddecor name="FridgePostit2"/>
+    <placeddecor name="CuttingBoard"/>
+    <placeddecor name="WallCupboardClosed"/>
+    <placeddecor name="Table">
+      <element pos="T1" name="greengrapes"/>
+    </placeddecor>
+    <element pos="B6" name="spoon"/>
+    <solutionobject pos="SolFruitBasket" name="FruitBasketSol" acceptedElements="fruits" targetedSkill="B19" nbSol2Find="1"/>
+    <solutionobject pos="SolCutleryDrawer" name="CutleryDrawer" acceptedElements="cutlery" targetedSkill="B19" nbSol2Find="1"/>
+  </level>
+  <level scene="Kitchen-1" nbElementsToPlace="2" difficulty="ELEMENTARY">
+    <placeddecor name="FridgePostit1"/>
+    <placeddecor name="CuttingBoard"/>
+    <placeddecor name="rags"/>
+    <placeddecor name="Microwave">
+      <element pos="MicrowavePos1" name="knife"/>
+    </placeddecor>
+    <element pos="B8" name="greengrapes"/>
+    <solutionobject pos="SolFruitBasket" name="FruitBasketSol" acceptedElements="fruits" targetedSkill="B19" nbSol2Find="1"/>
+    <solutionobject pos="SolCutleryDrawer" name="CutleryDrawer" acceptedElements="cutlery" targetedSkill="B19" nbSol2Find="1"/>
+  </level>
+  <level scene="Kitchen-1" nbElementsToPlace="2" difficulty="ELEMENTARY">
+    <placeddecor name="FridgePostit2"/>
+    <placeddecor name="CookerHood"/>
+    <placeddecor name="rags"/>
+    <placeddecor name="Mixer"/>
+    <placeddecor name="Microwave"/>
+    <placeddecor name="Table">
+      <element pos="T1" name="knife"/>
+    </placeddecor>
+    <element pos="B3" name="watermelon"/>
+    <solutionobject pos="SolFruitBasket" name="FruitBasketSol" acceptedElements="fruits" targetedSkill="B19" nbSol2Find="1"/>
+    <solutionobject pos="SolCutleryDrawer" name="CutleryDrawer" acceptedElements="cutlery" targetedSkill="B19" nbSol2Find="1"/>
+  </level>
+</flatModel4Unity:Game>

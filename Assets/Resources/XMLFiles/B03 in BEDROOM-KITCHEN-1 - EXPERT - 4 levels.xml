@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ASCII"?>
+<flatModel4Unity:Game xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:flatModel4Unity="flatModel4Unity">
+  <level scene="Bedroom" nbElementsToPlace="4" difficulty="EXPERT">
+    <placeddecor name="desk">
+      <element pos="D2" name="openedBook"/>
+    </placeddecor>
+    <placeddecor name="Nighttable"/>
+    <hideout name="garbage" pos="P6"/>
+    <element pos="P9" name="footBall"/>
+    <element pos="P2" name="footBall"/>
+    <element pos="P8" name="footBall"/>
+    <element pos="P1" name="footBall"/>
+    <solutionobject pos="S2" name="ToyBox" acceptedElements="footBall" targetedSkill="B3" nbSol2Find="4"/>
+  </level>
+  <level scene="Kitchen-1" nbElementsToPlace="4" difficulty="EXPERT">
+    <placeddecor name="FridgePostit1"/>
+    <placeddecor name="CookerHood"/>
+    <placeddecor name="FlowerPot"/>
+    <placeddecor name="CuttingBoard">
+      <element pos="CBPos1" name="mustard"/>
+    </placeddecor>
+    <placeddecor name="WallCupboardClosed"/>
+    <placeddecor name="rags"/>
+    <placeddecor name="Mixer">
+      <element pos="MixerPos1" name="mustard"/>
+    </placeddecor>
+    <placeddecor name="Microwave">
+      <element pos="MicrowavePos1" name="mustard"/>
+    </placeddecor>
+    <hideout name="MarketBag" pos="B4">
+      <element pos="Bag2" name="mustard"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B3"/>
+    <hideout name="MarketBag" pos="B6"/>
+    <solutionobject pos="SolFridge" name="FridgeTop" acceptedElements="mustard" targetedSkill="B3" nbSol2Find="4"/>
+  </level>
+  <level scene="Kitchen-1" nbElementsToPlace="4" difficulty="EXPERT">
+    <placeddecor name="CookerHood"/>
+    <placeddecor name="CuttingBoard"/>
+    <placeddecor name="WallCupboardClosed"/>
+    <placeddecor name="Mixer"/>
+    <hideout name="MarketBag" pos="WCBPos2"/>
+    <hideout name="MarketBag" pos="CBPos1"/>
+    <hideout name="MarketBag" pos="WCBPos1"/>
+    <hideout name="MarketBag" pos="B9">
+      <element pos="Bag2" name="ketchup"/>
+    </hideout>
+    <element pos="B3" name="ketchup"/>
+    <element pos="B2" name="ketchup"/>
+    <element pos="B1" name="ketchup"/>
+    <solutionobject pos="SolFridge" name="FridgeTop" acceptedElements="ketchup" targetedSkill="B3" nbSol2Find="4"/>
+  </level>
+  <level scene="Bedroom" nbElementsToPlace="4" difficulty="EXPERT">
+    <placeddecor name="Nighttable"/>
+    <hideout name="garbage" pos="P4">
+      <element pos="HiddenPlaceGarbage1" name="basketBall"/>
+    </hideout>
+    <hideout name="pillow" pos="P1"/>
+    <hideout name="pillow" pos="P8">
+      <element pos="HiddenPlacePillow1" name="basketBall"/>
+    </hideout>
+    <hideout name="pillow" pos="P7">
+      <element pos="HiddenPlacePillow1" name="basketBall"/>
+    </hideout>
+    <hideout name="pillow" pos="P3">
+      <element pos="HiddenPlacePillow1" name="basketBall"/>
+    </hideout>
+    <element pos="P9" name="openedBook"/>
+    <solutionobject pos="S2" name="ToyBox" acceptedElements="basketBall" targetedSkill="B3" nbSol2Find="4"/>
+  </level>
+</flatModel4Unity:Game>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ASCII"?>
+<flatModel4Unity:Game xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:flatModel4Unity="flatModel4Unity">
+  <level scene="Kitchen-1" nbElementsToPlace="3" difficulty="EXPERT">
+    <placeddecor name="FridgePostit1"/>
+    <placeddecor name="CookerHood"/>
+    <placeddecor name="FlowerPot"/>
+    <placeddecor name="CuttingBoard">
+      <element pos="CBPos1" name="plate4o"/>
+    </placeddecor>
+    <placeddecor name="rags"/>
+    <placeddecor name="Mixer"/>
+    <placeddecor name="Microwave">
+      <element pos="MicrowavePos1" name="glass4o"/>
+    </placeddecor>
+    <placeddecor name="Table"/>
+    <hideout name="MarketBag" pos="B8"/>
+    <hideout name="MarketBag" pos="B1"/>
+    <element pos="B7" name="knife4o"/>
+    <solutionobject pos="SolCutleryOutline" name="CutleryOutline" acceptedElements="CutleryForOutline" targetedSkill="B9" nbSol2Find="3">
+      <element pos="outlinePlace1" name="fork4o"/>
+      <element pos="outlinePlace2" name="spoon4o"/>
+      <solutionarea pos="outlinePlace3" acceptedElement="knife4o"/>
+      <solutionarea pos="outlinePlace4" acceptedElement="plate4o"/>
+      <solutionarea pos="outlinePlace5" acceptedElement="glass4o"/>
+    </solutionobject>
+  </level>
+  <level scene="Kitchen-1" nbElementsToPlace="3" difficulty="EXPERT">
+    <placeddecor name="FridgePostit2"/>
+    <placeddecor name="CuttingBoard"/>
+    <placeddecor name="rags"/>
+    <placeddecor name="Microwave">
+      <element pos="MicrowavePos1" name="fork4o"/>
+    </placeddecor>
+    <hideout name="MarketBag" pos="B5"/>
+    <hideout name="MarketBag" pos="B6"/>
+    <hideout name="MarketBag" pos="B7"/>
+    <hideout name="MarketBag" pos="B2"/>
+    <element pos="B4" name="spoon4o"/>
+    <element pos="B3" name="plate4o"/>
+    <solutionobject pos="SolCutleryOutline" name="CutleryOutline" acceptedElements="CutleryForOutline" targetedSkill="B9" nbSol2Find="3">
+      <element pos="outlinePlace3" name="knife4o"/>
+      <element pos="outlinePlace5" name="glass4o"/>
+      <solutionarea pos="outlinePlace1" acceptedElement="fork4o"/>
+      <solutionarea pos="outlinePlace2" acceptedElement="spoon4o"/>
+      <solutionarea pos="outlinePlace4" acceptedElement="plate4o"/>
+    </solutionobject>
+  </level>
+  <level scene="Kitchen-1" nbElementsToPlace="3" difficulty="EXPERT">
+    <placeddecor name="FridgePostit1"/>
+    <placeddecor name="CookerHood"/>
+    <placeddecor name="WallCupboardClosed"/>
+    <placeddecor name="rags"/>
+    <placeddecor name="Mixer"/>
+    <hideout name="MarketBag" pos="B6">
+      <element pos="Bag2" name="spoon4o"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B4"/>
+    <hideout name="MarketBag" pos="B5"/>
+    <hideout name="MarketBag" pos="B1"/>
+    <hideout name="MarketBag" pos="B3"/>
+    <hideout name="MarketBag" pos="WCBPos2">
+      <element pos="Bag1" name="glass4o"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B9"/>
+    <element pos="B2" name="knife4o"/>
+    <solutionobject pos="SolCutleryOutline" name="CutleryOutline" acceptedElements="CutleryForOutline" targetedSkill="B9" nbSol2Find="3">
+      <element pos="outlinePlace1" name="fork4o"/>
+      <element pos="outlinePlace4" name="plate4o"/>
+      <solutionarea pos="outlinePlace2" acceptedElement="spoon4o"/>
+      <solutionarea pos="outlinePlace3" acceptedElement="knife4o"/>
+      <solutionarea pos="outlinePlace5" acceptedElement="glass4o"/>
+    </solutionobject>
+  </level>
+  <level scene="Kitchen-1" nbElementsToPlace="2" difficulty="EXPERT">
+    <placeddecor name="FridgePostit2"/>
+    <placeddecor name="CookerHood"/>
+    <placeddecor name="FlowerPot"/>
+    <placeddecor name="WallCupboardClosed"/>
+    <placeddecor name="rags"/>
+    <placeddecor name="Mixer"/>
+    <placeddecor name="Microwave"/>
+    <hideout name="MarketBag" pos="B6"/>
+    <hideout name="MarketBag" pos="MicrowavePos1"/>
+    <hideout name="MarketBag" pos="B2"/>
+    <hideout name="MarketBag" pos="B4"/>
+    <hideout name="MarketBag" pos="B7"/>
+    <hideout name="MarketBag" pos="WCBPos2">
+      <element pos="Bag2" name="fork4o"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B5"/>
+    <hideout name="MarketBag" pos="MixerPos1"/>
+    <hideout name="MarketBag" pos="B3">
+      <element pos="Bag2" name="knife4o"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B8"/>
+    <solutionobject pos="SolCutleryOutline" name="CutleryOutline" acceptedElements="CutleryForOutline" targetedSkill="B9" nbSol2Find="2">
+      <element pos="outlinePlace2" name="spoon4o"/>
+      <element pos="outlinePlace5" name="glass4o"/>
+      <element pos="outlinePlace4" name="plate4o"/>
+      <solutionarea pos="outlinePlace1" acceptedElement="fork4o"/>
+      <solutionarea pos="outlinePlace3" acceptedElement="knife4o"/>
+    </solutionobject>
+  </level>
+</flatModel4Unity:Game>

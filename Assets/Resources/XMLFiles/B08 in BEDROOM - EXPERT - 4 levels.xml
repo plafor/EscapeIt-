@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="ASCII"?>
+<flatModel4Unity:Game xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:flatModel4Unity="flatModel4Unity">
+  <level scene="Bedroom" nbElementsToPlace="13" difficulty="EXPERT">
+    <placeddecor name="poster"/>
+    <placeddecor name="Cabinet">
+      <element pos="UnderCabinetRight" name="redTruck"/>
+      <element pos="UnderCabinetLeft" name="redTruck"/>
+      <hideout name="downDrawer" pos="">
+        <element pos="drawerHiddenPlace2" name="blueTruck"/>
+        <element pos="drawerHiddenPlace" name="footBall"/>
+      </hideout>
+      <hideout name="topDrawer" pos="">
+        <element pos="drawerHiddenPlace2" name="greenTruck"/>
+      </hideout>
+    </placeddecor>
+    <placeddecor name="Nighttable"/>
+    <hideout name="pillow" pos="P8">
+      <element pos="HiddenPlacePillow1" name="greenTruck"/>
+    </hideout>
+    <hideout name="garbage" pos="P5">
+      <element pos="HiddenPlaceGarbage1" name="redTruck"/>
+    </hideout>
+    <hideout name="garbage" pos="P6">
+      <element pos="HiddenPlaceGarbage1" name="blueTruck"/>
+    </hideout>
+    <hideout name="pillow" pos="P7">
+      <element pos="HiddenPlacePillow1" name="blueTruck"/>
+    </hideout>
+    <element pos="P3" name="redTruck"/>
+    <element pos="P1" name="redTruck"/>
+    <element pos="P9" name="greenTruck"/>
+    <element pos="P2" name="greenTruck"/>
+    <solutionobject pos="S4" name="cubicStorage" acceptedElements="Trucks" targetedSkill="B8" nbSol2Find="12"/>
+    <solutionobject pos="S2" name="cubicStorage" acceptedElements="Balls" targetedSkill="B8" nbSol2Find="1"/>
+  </level>
+  <level scene="Bedroom" nbElementsToPlace="11" difficulty="EXPERT">
+    <placeddecor name="desk">
+      <element pos="D2" name="teddybearsmall"/>
+      <element pos="D3" name="greenTruck"/>
+    </placeddecor>
+    <placeddecor name="Cabinet">
+      <element pos="UnderCabinetLeft" name="blueTruck"/>
+      <element pos="UnderCabinetRight" name="openedBook"/>
+      <hideout name="downDrawer" pos="">
+        <element pos="drawerHiddenPlace2" name="teddybearsmall"/>
+        <element pos="drawerHiddenPlace" name="teddybearsmall"/>
+      </hideout>
+      <hideout name="topDrawer" pos="">
+        <element pos="drawerHiddenPlace" name="blueTruck"/>
+      </hideout>
+    </placeddecor>
+    <hideout name="pillow" pos="P3">
+      <element pos="HiddenPlacePillow1" name="openedBook"/>
+    </hideout>
+    <hideout name="garbage" pos="P7"/>
+    <hideout name="pillow" pos="D1">
+      <element pos="HiddenPlacePillow1" name="redTruck"/>
+    </hideout>
+    <hideout name="garbage" pos="P8"/>
+    <hideout name="pillow" pos="P6">
+      <element pos="HiddenPlacePillow1" name="teddybearbig"/>
+    </hideout>
+    <hideout name="garbage" pos="P4"/>
+    <element pos="P1" name="teddybearsmall"/>
+    <element pos="P9" name="teddybearsmall"/>
+    <element pos="P2" name="greenTruck"/>
+    <element pos="P5" name="openedBook"/>
+    <solutionobject pos="S4" name="cubicStorage" acceptedElements="teddybears" targetedSkill="B8" nbSol2Find="6"/>
+    <solutionobject pos="S2" name="cubicStorage" acceptedElements="Trucks" targetedSkill="B8" nbSol2Find="5"/>
+  </level>
+  <level scene="Bedroom" nbElementsToPlace="5" difficulty="EXPERT">
+    <placeddecor name="poster"/>
+    <placeddecor name="desk"/>
+    <hideout name="garbage" pos="P4">
+      <element pos="HiddenPlaceGarbage1" name="basketBall"/>
+    </hideout>
+    <hideout name="garbage" pos="P5">
+      <element pos="HiddenPlaceGarbage1" name="blueTruck"/>
+    </hideout>
+    <hideout name="garbage" pos="P7"/>
+    <hideout name="pillow" pos="P8">
+      <element pos="HiddenPlacePillow1" name="greenTruck"/>
+    </hideout>
+    <hideout name="garbage" pos="P3"/>
+    <hideout name="pillow" pos="P9"/>
+    <hideout name="garbage" pos="P1"/>
+    <hideout name="garbage" pos="D1">
+      <element pos="HiddenPlaceGarbage1" name="openedBook"/>
+    </hideout>
+    <hideout name="pillow" pos="P6">
+      <element pos="HiddenPlacePillow1" name="basketBall"/>
+    </hideout>
+    <element pos="P2" name="basketBall"/>
+    <solutionobject pos="S4" name="cubicStorage" acceptedElements="Balls" targetedSkill="B8" nbSol2Find="3"/>
+    <solutionobject pos="S2" name="cubicStorage" acceptedElements="Trucks" targetedSkill="B8" nbSol2Find="2"/>
+  </level>
+  <level scene="Bedroom" nbElementsToPlace="7" difficulty="EXPERT">
+    <placeddecor name="clock"/>
+    <placeddecor name="desk">
+      <element pos="D1" name="teddybearsmall"/>
+      <element pos="D2" name="openedBook"/>
+      <element pos="D3" name="openedBook"/>
+    </placeddecor>
+    <hideout name="garbage" pos="P6">
+      <element pos="HiddenPlaceGarbage1" name="openedBook"/>
+    </hideout>
+    <hideout name="pillow" pos="P3">
+      <element pos="HiddenPlacePillow1" name="blueTruck"/>
+    </hideout>
+    <hideout name="pillow" pos="P9">
+      <element pos="HiddenPlacePillow1" name="openedBook"/>
+    </hideout>
+    <hideout name="garbage" pos="P5">
+      <element pos="HiddenPlaceGarbage1" name="teddybearbig"/>
+    </hideout>
+    <element pos="P8" name="teddybearbig"/>
+    <element pos="P1" name="teddybearsmall"/>
+    <element pos="P7" name="teddybearbig"/>
+    <element pos="P4" name="teddybearbig"/>
+    <solutionobject pos="S4" name="cubicStorage" acceptedElements="teddybears" targetedSkill="B8" nbSol2Find="6"/>
+    <solutionobject pos="S2" name="cubicStorage" acceptedElements="Trucks" targetedSkill="B8" nbSol2Find="1"/>
+  </level>
+</flatModel4Unity:Game>

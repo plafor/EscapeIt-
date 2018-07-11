@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ASCII"?>
+<flatModel4Unity:Game xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:flatModel4Unity="flatModel4Unity">
+  <level scene="Bedroom" nbElementsToPlace="2" difficulty="INTERMEDIATE">
+    <placeddecor name="desk"/>
+    <hideout name="pillow" pos="P9"/>
+    <hideout name="pillow" pos="P8"/>
+    <hideout name="garbage" pos="P5"/>
+    <hideout name="pillow" pos="P7">
+      <element pos="HiddenPlacePillow1" name="GreenCubeVeryDark"/>
+    </hideout>
+    <hideout name="pillow" pos="P1"/>
+    <hideout name="garbage" pos="P6"/>
+    <hideout name="pillow" pos="D3"/>
+    <element pos="P4" name="GreenCubeLight"/>
+    <solutionobject pos="ShelfPos1" name="Shelf" acceptedElements="GreenCubes" targetedSkill="B25" nbSol2Find="2">
+      <element pos="Shelf5" name="GreenCubeVeryLight"/>
+      <element pos="Shelf2" name="GreenCubeDark"/>
+      <element pos="Shelf3" name="GreenCubeNormal"/>
+      <solutionarea pos="Shelf1" acceptedElement="GreenCubeVeryDark"/>
+      <solutionarea pos="Shelf4" acceptedElement="GreenCubeLight"/>
+    </solutionobject>
+  </level>
+  <level scene="Bedroom" nbElementsToPlace="2" difficulty="INTERMEDIATE">
+    <placeddecor name="clock"/>
+    <placeddecor name="poster"/>
+    <placeddecor name="desk">
+      <element pos="D1" name="GreenCubeDark"/>
+    </placeddecor>
+    <hideout name="garbage" pos="P4"/>
+    <hideout name="pillow" pos="P9"/>
+    <element pos="P6" name="GreenCubeLight"/>
+    <solutionobject pos="ShelfPos1" name="Shelf" acceptedElements="GreenCubes" targetedSkill="B25" nbSol2Find="2">
+      <element pos="Shelf5" name="GreenCubeVeryDark"/>
+      <element pos="Shelf1" name="GreenCubeVeryLight"/>
+      <element pos="Shelf3" name="GreenCubeNormal"/>
+      <solutionarea pos="Shelf2" acceptedElement="GreenCubeLight"/>
+      <solutionarea pos="Shelf4" acceptedElement="GreenCubeDark"/>
+    </solutionobject>
+  </level>
+  <level scene="Bedroom" nbElementsToPlace="2" difficulty="INTERMEDIATE">
+    <placeddecor name="poster"/>
+    <placeddecor name="desk"/>
+    <placeddecor name="Cabinet">
+      <hideout name="downDrawer" pos="">
+        <element pos="drawerHiddenPlace2" name="RedCubeSmall"/>
+      </hideout>
+      <hideout name="topDrawer" pos=""/>
+    </placeddecor>
+    <placeddecor name="Nighttable"/>
+    <hideout name="garbage" pos="P2"/>
+    <hideout name="garbage" pos="UnderCabinetLeft"/>
+    <hideout name="pillow" pos="D1"/>
+    <hideout name="pillow" pos="P9"/>
+    <hideout name="pillow" pos="P4">
+      <element pos="HiddenPlacePillow1" name="RedCubeLarge"/>
+    </hideout>
+    <hideout name="garbage" pos="D2"/>
+    <solutionobject pos="ShelfPos1" name="Shelf" acceptedElements="RedCubes" targetedSkill="B25" nbSol2Find="2">
+      <element pos="Shelf1" name="RedCubeVeryLarge"/>
+      <element pos="Shelf4" name="RedCubeNormal"/>
+      <element pos="Shelf3" name="RedCubeBig"/>
+      <solutionarea pos="Shelf2" acceptedElement="RedCubeLarge"/>
+      <solutionarea pos="Shelf5" acceptedElement="RedCubeSmall"/>
+    </solutionobject>
+  </level>
+  <level scene="Bedroom" nbElementsToPlace="2" difficulty="INTERMEDIATE">
+    <placeddecor name="desk">
+      <element pos="D1" name="GreenCubeDark"/>
+    </placeddecor>
+    <placeddecor name="Nighttable"/>
+    <hideout name="garbage" pos="P2"/>
+    <hideout name="pillow" pos="P8"/>
+    <element pos="P3" name="GreenCubeVeryLight"/>
+    <solutionobject pos="ShelfPos1" name="Shelf" acceptedElements="GreenCubes" targetedSkill="B25" nbSol2Find="2">
+      <element pos="Shelf5" name="GreenCubeVeryDark"/>
+      <element pos="Shelf2" name="GreenCubeLight"/>
+      <element pos="Shelf3" name="GreenCubeNormal"/>
+      <solutionarea pos="Shelf1" acceptedElement="GreenCubeVeryLight"/>
+      <solutionarea pos="Shelf4" acceptedElement="GreenCubeDark"/>
+    </solutionobject>
+  </level>
+</flatModel4Unity:Game>

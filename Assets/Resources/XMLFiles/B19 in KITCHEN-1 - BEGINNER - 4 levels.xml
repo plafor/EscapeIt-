@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<flatModel4Unity:Game xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:flatModel4Unity="flatModel4Unity">
+  <level scene="Kitchen-1" nbElementsToPlace="1" difficulty="BEGINNER">
+    <element pos="B3" name="knife"/>
+    <solutionobject pos="SolCutleryDrawer" name="CutleryDrawer" acceptedElements="cutlery" targetedSkill="B19" nbSol2Find="1"/>
+  </level>
+  <level scene="Kitchen-1" nbElementsToPlace="1" difficulty="BEGINNER">
+    <element pos="B1" name="watermelon"/>
+    <solutionobject pos="SolFruitBasket" name="FruitBasketSol" acceptedElements="fruits" targetedSkill="B19" nbSol2Find="1"/>
+  </level>
+  <level scene="Kitchen-1" nbElementsToPlace="1" difficulty="BEGINNER">
+    <element pos="B3" name="grapes"/>
+    <solutionobject pos="SolFruitBasket" name="FruitBasketSol" acceptedElements="fruits" targetedSkill="B19" nbSol2Find="1"/>
+  </level>
+  <level scene="Kitchen-1" nbElementsToPlace="1" difficulty="BEGINNER">
+    <element pos="B8" name="knife"/>
+    <solutionobject pos="SolCutleryDrawer" name="CutleryDrawer" acceptedElements="cutlery" targetedSkill="B19" nbSol2Find="1"/>
+  </level>
+</flatModel4Unity:Game>

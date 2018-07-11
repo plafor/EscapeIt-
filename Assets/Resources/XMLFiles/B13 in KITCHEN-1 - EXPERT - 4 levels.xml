@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ASCII"?>
+<flatModel4Unity:Game xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:flatModel4Unity="flatModel4Unity">
+  <level scene="Kitchen-1" nbElementsToPlace="4" difficulty="EXPERT">
+    <placeddecor name="FridgePostit2"/>
+    <placeddecor name="Mixer"/>
+    <placeddecor name="Microwave">
+      <element pos="MicrowavePos1" name="mustard"/>
+    </placeddecor>
+    <hideout name="MarketBag" pos="B5"/>
+    <hideout name="MarketBag" pos="B6">
+      <element pos="Bag2" name="coke"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B3"/>
+    <hideout name="MarketBag" pos="B7"/>
+    <element pos="B2" name="ketchup"/>
+    <element pos="B8" name="ketchup"/>
+    <solutionobject pos="SolFridgeModel" name="FridgeModelSol" acceptedElements="ModelElements" targetedSkill="B13" nbSol2Find="4">
+      <element pos="Top1" name="ketchup"/>
+      <element pos="Top2" name="mustard"/>
+      <element pos="Top3" name="ketchup"/>
+      <element pos="Top4" name="coke"/>
+      <solutionarea pos="Bottom1" acceptedElement="ketchup"/>
+      <solutionarea pos="Bottom2" acceptedElement="mustard"/>
+      <solutionarea pos="Bottom3" acceptedElement="ketchup"/>
+      <solutionarea pos="Bottom4" acceptedElement="coke"/>
+    </solutionobject>
+  </level>
+  <level scene="Kitchen-1" nbElementsToPlace="4" difficulty="EXPERT">
+    <placeddecor name="FridgePostit1"/>
+    <placeddecor name="FridgePostit2"/>
+    <placeddecor name="FlowerPot"/>
+    <placeddecor name="CuttingBoard"/>
+    <placeddecor name="rags"/>
+    <placeddecor name="Microwave"/>
+    <hideout name="MarketBag" pos="B6">
+      <element pos="Bag2" name="coke"/>
+    </hideout>
+    <hideout name="MarketBag" pos="MicrowavePos1"/>
+    <element pos="B3" name="ketchup"/>
+    <element pos="B8" name="ketchup"/>
+    <element pos="B4" name="coke"/>
+    <solutionobject pos="SolFridgeModel" name="FridgeModelSol" acceptedElements="ModelElements" targetedSkill="B13" nbSol2Find="4">
+      <element pos="Top1" name="ketchup"/>
+      <element pos="Top2" name="ketchup"/>
+      <element pos="Top3" name="coke"/>
+      <element pos="Top4" name="coke"/>
+      <solutionarea pos="Bottom1" acceptedElement="ketchup"/>
+      <solutionarea pos="Bottom2" acceptedElement="ketchup"/>
+      <solutionarea pos="Bottom3" acceptedElement="coke"/>
+      <solutionarea pos="Bottom4" acceptedElement="coke"/>
+    </solutionobject>
+  </level>
+  <level scene="Kitchen-1" nbElementsToPlace="4" difficulty="EXPERT">
+    <placeddecor name="FridgePostit1"/>
+    <placeddecor name="FridgePostit2"/>
+    <placeddecor name="CookerHood"/>
+    <placeddecor name="WallCupboardClosed"/>
+    <placeddecor name="rags"/>
+    <placeddecor name="Mixer">
+      <element pos="MixerPos1" name="mustard"/>
+    </placeddecor>
+    <hideout name="MarketBag" pos="B8">
+      <element pos="Bag2" name="mustard"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B4">
+      <element pos="Bag2" name="coke"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B9">
+      <element pos="Bag1" name="mustard"/>
+    </hideout>
+    <solutionobject pos="SolFridgeModel" name="FridgeModelSol" acceptedElements="ModelElements" targetedSkill="B13" nbSol2Find="4">
+      <element pos="Top1" name="mustard"/>
+      <element pos="Top2" name="mustard"/>
+      <element pos="Top3" name="mustard"/>
+      <element pos="Top4" name="coke"/>
+      <solutionarea pos="Bottom1" acceptedElement="mustard"/>
+      <solutionarea pos="Bottom2" acceptedElement="mustard"/>
+      <solutionarea pos="Bottom3" acceptedElement="mustard"/>
+      <solutionarea pos="Bottom4" acceptedElement="coke"/>
+    </solutionobject>
+  </level>
+  <level scene="Kitchen-1" nbElementsToPlace="4" difficulty="EXPERT">
+    <placeddecor name="FridgePostit1"/>
+    <placeddecor name="FlowerPot"/>
+    <placeddecor name="CuttingBoard"/>
+    <hideout name="MarketBag" pos="B1">
+      <element pos="Bag2" name="coke"/>
+      <element pos="Bag1" name="ketchup"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B8">
+      <element pos="Bag2" name="coke"/>
+    </hideout>
+    <element pos="B9" name="ketchup"/>
+    <solutionobject pos="SolFridgeModel" name="FridgeModelSol" acceptedElements="ModelElements" targetedSkill="B13" nbSol2Find="4">
+      <element pos="Top1" name="coke"/>
+      <element pos="Top2" name="ketchup"/>
+      <element pos="Top3" name="ketchup"/>
+      <element pos="Top4" name="coke"/>
+      <solutionarea pos="Bottom1" acceptedElement="coke"/>
+      <solutionarea pos="Bottom2" acceptedElement="ketchup"/>
+      <solutionarea pos="Bottom3" acceptedElement="ketchup"/>
+      <solutionarea pos="Bottom4" acceptedElement="coke"/>
+    </solutionobject>
+  </level>
+</flatModel4Unity:Game>

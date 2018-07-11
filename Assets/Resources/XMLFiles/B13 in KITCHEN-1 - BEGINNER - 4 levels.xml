@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ASCII"?>
+<flatModel4Unity:Game xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:flatModel4Unity="flatModel4Unity">
+  <level scene="Kitchen-1" nbElementsToPlace="2" difficulty="BEGINNER">
+    <element pos="B9" name="Coke"/>
+    <element pos="B6" name="Mustard"/>
+    <solutionobject pos="SolFridgeModel" name="FridgeModelSol" acceptedElements="ModelElements" targetedSkill="B13" nbSol2Find="2">
+      <element pos="Top1" name="Coke"/>
+      <element pos="Top2" name="Mustard"/>
+      <element pos="Top3" name="Coke"/>
+      <element pos="Bottom3" name="Coke"/>
+      <element pos="Top4" name="Coke"/>
+      <element pos="Bottom4" name="Coke"/>
+      <solutionarea pos="Bottom1" acceptedElement="coke"/>
+      <solutionarea pos="Bottom2" acceptedElement="mustard"/>
+    </solutionobject>
+  </level>
+  <level scene="Kitchen-1" nbElementsToPlace="2" difficulty="BEGINNER">
+    <element pos="B8" name="Ketchup"/>
+    <element pos="B1" name="Mustard"/>
+    <solutionobject pos="SolFridgeModel" name="FridgeModelSol" acceptedElements="ModelElements" targetedSkill="B13" nbSol2Find="2">
+      <element pos="Top1" name="Ketchup"/>
+      <element pos="Top2" name="Coke"/>
+      <element pos="Bottom2" name="Coke"/>
+      <element pos="Top3" name="Mustard"/>
+      <element pos="Top4" name="Coke"/>
+      <element pos="Bottom4" name="Coke"/>
+      <solutionarea pos="Bottom1" acceptedElement="ketchup"/>
+      <solutionarea pos="Bottom3" acceptedElement="mustard"/>
+    </solutionobject>
+  </level>
+  <level scene="Kitchen-1" nbElementsToPlace="2" difficulty="BEGINNER">
+    <element pos="B8" name="Mustard"/>
+    <element pos="B6" name="Coke"/>
+    <solutionobject pos="SolFridgeModel" name="FridgeModelSol" acceptedElements="ModelElements" targetedSkill="B13" nbSol2Find="2">
+      <element pos="Top1" name="Mustard"/>
+      <element pos="Top2" name="Coke"/>
+      <element pos="Top3" name="Ketchup"/>
+      <element pos="Bottom3" name="Ketchup"/>
+      <element pos="Top4" name="Mustard"/>
+      <element pos="Bottom4" name="Mustard"/>
+      <solutionarea pos="Bottom1" acceptedElement="mustard"/>
+      <solutionarea pos="Bottom2" acceptedElement="coke"/>
+    </solutionobject>
+  </level>
+  <level scene="Kitchen-1" nbElementsToPlace="2" difficulty="BEGINNER">
+    <element pos="B1" name="Mustard"/>
+    <element pos="B9" name="Mustard"/>
+    <solutionobject pos="SolFridgeModel" name="FridgeModelSol" acceptedElements="ModelElements" targetedSkill="B13" nbSol2Find="2">
+      <element pos="Top1" name="Ketchup"/>
+      <element pos="Bottom1" name="Ketchup"/>
+      <element pos="Top2" name="Mustard"/>
+      <element pos="Top3" name="Ketchup"/>
+      <element pos="Bottom3" name="Ketchup"/>
+      <element pos="Top4" name="Mustard"/>
+      <solutionarea pos="Bottom2" acceptedElement="mustard"/>
+      <solutionarea pos="Bottom4" acceptedElement="mustard"/>
+    </solutionobject>
+  </level>
+</flatModel4Unity:Game>

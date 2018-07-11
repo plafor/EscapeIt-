@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ASCII"?>
+<flatModel4Unity:Game xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:flatModel4Unity="flatModel4Unity" xsi:schemaLocation="flatModel4Unity flat/flatModel4Unity.ecore">
+  <level scene="Kitchen-1" nbElementsToPlace="2" difficulty="INTERMEDIATE">
+    <placeddecor name="Microwave"/>
+    <placeddecor name="Table"/>
+    <hideout name="MarketBag" pos="B7"/>
+    <hideout name="MarketBag" pos="B6">
+      <element pos="Bag2" name="fork4o"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B8"/>
+    <element pos="B3" name="glass4o"/>
+    <solutionobject pos="SolCutleryOutline" name="CutleryOutline" acceptedElements="CutleryForOutline" targetedSkill="B9" nbSol2Find="2">
+      <element pos="outlinePlace4" name="plate4o"/>
+      <element pos="outlinePlace2" name="spoon4o"/>
+      <element pos="outlinePlace3" name="knife4o"/>
+      <solutionarea pos="outlinePlace1" acceptedElement="fork4o"/>
+      <solutionarea pos="outlinePlace5" acceptedElement="glass4o"/>
+    </solutionobject>
+  </level>
+  <level scene="Bedroom" nbElementsToPlace="1" difficulty="BEGINNER">
+    <element pos="P7" name="RedCubeSmall"/>
+    <solutionobject pos="ShelfPos1" name="Shelf" acceptedElements="RedCubes" targetedSkill="B25" nbSol2Find="1">
+      <element pos="Shelf3" name="RedCubeBig"/>
+      <element pos="Shelf1" name="RedCubeVeryLarge"/>
+      <element pos="Shelf4" name="RedCubeNormal"/>
+      <element pos="Shelf2" name="RedCubeLarge"/>
+      <solutionarea pos="Shelf5" acceptedElement="RedCubeSmall"/>
+    </solutionobject>
+  </level>
+  <level scene="Kitchen-1" nbElementsToPlace="2" difficulty="ELEMENTARY">
+    <placeddecor name="CookerHood"/>
+    <placeddecor name="FlowerPot"/>
+    <placeddecor name="rags"/>
+    <element pos="B3" name="mustard"/>
+    <element pos="B6" name="mustard"/>
+    <solutionobject pos="SolFridgeModel" name="FridgeModelSol" acceptedElements="ModelElements" targetedSkill="B13" nbSol2Find="2">
+      <element pos="Top1" name="mustard"/>
+      <element pos="Top2" name="mustard"/>
+      <element pos="Bottom2" name="mustard"/>
+      <element pos="Top3" name="ketchup"/>
+      <element pos="Bottom3" name="ketchup"/>
+      <element pos="Top4" name="mustard"/>
+      <solutionarea pos="Bottom1" acceptedElement="mustard"/>
+      <solutionarea pos="Bottom4" acceptedElement="mustard"/>
+    </solutionobject>
+  </level>
+  <level scene="Kitchen-1" nbElementsToPlace="6" difficulty="ADVANCED">
+    <placeddecor name="FridgePostit1"/>
+    <placeddecor name="FlowerPot"/>
+    <placeddecor name="CuttingBoard"/>
+    <placeddecor name="Mixer"/>
+    <placeddecor name="Microwave">
+      <element pos="MicrowavePos1" name="RedGlass"/>
+    </placeddecor>
+    <placeddecor name="Table">
+      <element pos="T3" name="BluePlate"/>
+    </placeddecor>
+    <hideout name="MarketBag" pos="CBPos1">
+      <element pos="Bag1" name="RedPlate"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B9">
+      <element pos="Bag1" name="RedPlate"/>
+    </hideout>
+    <hideout name="MarketBag" pos="B1">
+      <element pos="Bag1" name="BlueGlass"/>
+    </hideout>
+    <element pos="B6" name="RedGlass"/>
+    <solutionobject pos="SolTopPlates" name="WallCupboardOpenedGlassesSol" acceptedElements="Plates" targetedSkill="B8" nbSol2Find="3"/>
+    <solutionobject pos="SolTopGlasses" name="WallCupboardOpenedPlatesSol" acceptedElements="Glasses" targetedSkill="B8" nbSol2Find="3"/>
+  </level>
+</flatModel4Unity:Game>

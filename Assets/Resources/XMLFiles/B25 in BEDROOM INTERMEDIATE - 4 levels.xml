@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ASCII"?>
+<flatModel4Unity:Game xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:flatModel4Unity="flatModel4Unity">
+  <level scene="Bedroom-2" nbElementsToPlace="3" difficulty="BEGINNER">
+    <placeddecor name="ChildDrawing"/>
+    <placeddecor name="Carpet"/>
+    <placeddecor name="AmbianceLamp"/>
+    <placeddecor name="StorageCabinet"/>
+    <placeddecor name="Poster"/>
+    <element pos="P1" name="Gameboy"/>
+    <element pos="P2" name="Robot"/>
+    <element pos="P3" name="T-Rex"/>
+    <element pos="P4" name="RubiksCube"/>
+    <element pos="P5" name="Vessel"/>
+    <element pos="P6" name="Ball"/>
+    <element pos="P7" name="Gameboy"/>
+    <element pos="P8" name="Robot"/>
+    <element pos="P9" name="T-Rex"/>
+    <element pos="P10" name="RubiksCube"/>
+    <element pos="P11" name="Vessel"/>
+    <element pos="P12" name="Ball"/>
+    <element pos="P13" name="Gameboy"/>
+    <element pos="P14" name="Robot"/>
+    <element pos="15" name="T-Rex"/>
+    <element pos="16" name="RubiksCube"/>
+    <element pos="17" name="Vessel"/>
+  </level>
+</flatModel4Unity:Game>

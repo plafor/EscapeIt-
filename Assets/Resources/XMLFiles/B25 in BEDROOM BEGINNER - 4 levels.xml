@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ASCII"?>
+<flatModel4Unity:Game xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:flatModel4Unity="flatModel4Unity">
+  <level scene="Bedroom" nbElementsToPlace="1" difficulty="BEGINNER">
+    <element pos="P4" name="GreenCubeLight"/>
+    <solutionobject pos="ShelfPos1" name="Shelf" acceptedElements="GreenCubes" targetedSkill="B25" nbSol2Find="1">
+      <element pos="Shelf1" name="GreenCubeVeryDark"/>
+      <element pos="Shelf2" name="GreenCubeDark"/>
+      <element pos="Shelf3" name="GreenCubeNormal"/>
+      <element pos="Shelf5" name="GreenCubeVeryLight"/>
+      <solutionarea pos="Shelf4" acceptedElement="GreenCubeLight"/>
+    </solutionobject>
+  </level>
+  <level scene="Bedroom" nbElementsToPlace="1" difficulty="BEGINNER">
+    <element pos="P4" name="BlueCubeBig"/>
+    <solutionobject pos="ShelfPos1" name="Shelf" acceptedElements="BlueCubes" targetedSkill="B25" nbSol2Find="1">
+      <element pos="Shelf5" name="BlueCubeSmall"/>
+      <element pos="Shelf2" name="BlueCubeLarge"/>
+      <element pos="Shelf1" name="BlueCubeVeryLarge"/>
+      <element pos="Shelf4" name="BlueCubeNormal"/>
+      <solutionarea pos="Shelf3" acceptedElement="BlueCubeBig"/>
+    </solutionobject>
+  </level>
+  <level scene="Bedroom" nbElementsToPlace="1" difficulty="BEGINNER">
+    <element pos="P2" name="RedCubeBig"/>
+    <solutionobject pos="ShelfPos1" name="Shelf" acceptedElements="RedCubes" targetedSkill="B25" nbSol2Find="1">
+      <element pos="Shelf1" name="RedCubeSmall"/>
+      <element pos="Shelf4" name="RedCubeLarge"/>
+      <element pos="Shelf2" name="RedCubeNormal"/>
+      <element pos="Shelf5" name="RedCubeVeryLarge"/>
+      <solutionarea pos="Shelf3" acceptedElement="RedCubeBig"/>
+    </solutionobject>
+  </level>
+  <level scene="Bedroom" nbElementsToPlace="1" difficulty="BEGINNER">
+    <element pos="P7" name="RedCubeLarge"/>
+    <solutionobject pos="ShelfPos1" name="Shelf" acceptedElements="RedCubes" targetedSkill="B25" nbSol2Find="1">
+      <element pos="Shelf5" name="RedCubeVeryLarge"/>
+      <element pos="Shelf2" name="RedCubeNormal"/>
+      <element pos="Shelf3" name="RedCubeBig"/>
+      <element pos="Shelf1" name="RedCubeSmall"/>
+      <solutionarea pos="Shelf4" acceptedElement="RedCubeLarge"/>
+    </solutionobject>
+  </level>
+</flatModel4Unity:Game>

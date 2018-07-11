@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<flatModel4Unity:Game xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:flatModel4Unity="flatModel4Unity">
+  <level scene="Kitchen-1" nbElementsToPlace="1" difficulty="BEGINNER">
+    <element pos="B9" name="ketchup"/>
+    <solutionobject pos="SolFridge" name="FridgeTop" acceptedElements="ketchup" targetedSkill="B3" nbSol2Find="1"/>
+  </level>
+  <level scene="Bedroom" nbElementsToPlace="1" difficulty="BEGINNER">
+    <element pos="P9" name="blueTruck"/>
+    <solutionobject pos="S1" name="ToyBox" acceptedElements="blueTruck" targetedSkill="B3" nbSol2Find="1"/>
+  </level>
+  <level scene="Bedroom" nbElementsToPlace="1" difficulty="BEGINNER">
+    <element pos="P2" name="footBall"/>
+    <solutionobject pos="S1" name="ToyBox" acceptedElements="footBall" targetedSkill="B3" nbSol2Find="1"/>
+  </level>
+  <level scene="Kitchen-1" nbElementsToPlace="1" difficulty="BEGINNER">
+    <element pos="B1" name="mustard"/>
+    <solutionobject pos="SolFridge" name="FridgeTop" acceptedElements="mustard" targetedSkill="B3" nbSol2Find="1"/>
+  </level>
+</flatModel4Unity:Game>

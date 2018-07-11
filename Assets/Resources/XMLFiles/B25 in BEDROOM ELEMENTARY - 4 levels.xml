@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ASCII"?>
+<flatModel4Unity:Game xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:flatModel4Unity="flatModel4Unity">
+  <level scene="Bedroom" nbElementsToPlace="2" difficulty="ELEMENTARY">
+    <element pos="P9" name="RedCubeBig"/>
+    <element pos="P7" name="RedCubeSmall"/>
+    <solutionobject pos="ShelfPos1" name="Shelf" acceptedElements="RedCubes" targetedSkill="B25" nbSol2Find="2">
+      <element pos="Shelf1" name="RedCubeVeryLarge"/>
+      <element pos="Shelf4" name="RedCubeNormal"/>
+      <element pos="Shelf2" name="RedCubeLarge"/>
+      <solutionarea pos="Shelf3" acceptedElement="RedCubeBig"/>
+      <solutionarea pos="Shelf5" acceptedElement="RedCubeSmall"/>
+    </solutionobject>
+  </level>
+  <level scene="Bedroom" nbElementsToPlace="2" difficulty="ELEMENTARY">
+    <placeddecor name="poster"/>
+    <placeddecor name="Nighttable"/>
+    <element pos="P7" name="RedCubeLarge"/>
+    <element pos="P4" name="RedCubeBig"/>
+    <solutionobject pos="ShelfPos1" name="Shelf" acceptedElements="RedCubes" targetedSkill="B25" nbSol2Find="2">
+      <element pos="Shelf5" name="RedCubeSmall"/>
+      <element pos="Shelf1" name="RedCubeVeryLarge"/>
+      <element pos="Shelf4" name="RedCubeNormal"/>
+      <solutionarea pos="Shelf2" acceptedElement="RedCubeLarge"/>
+      <solutionarea pos="Shelf3" acceptedElement="RedCubeBig"/>
+    </solutionobject>
+  </level>
+  <level scene="Bedroom" nbElementsToPlace="2" difficulty="ELEMENTARY">
+    <placeddecor name="poster"/>
+    <placeddecor name="Cabinet"/>
+    <element pos="P2" name="BlueCubeVeryLarge"/>
+    <element pos="P9" name="BlueCubeSmall"/>
+    <solutionobject pos="ShelfPos1" name="Shelf" acceptedElements="BlueCubes" targetedSkill="B25" nbSol2Find="2">
+      <element pos="Shelf3" name="BlueCubeBig"/>
+      <element pos="Shelf2" name="BlueCubeNormal"/>
+      <element pos="Shelf4" name="BlueCubeLarge"/>
+      <solutionarea pos="Shelf1" acceptedElement="BlueCubeSmall"/>
+      <solutionarea pos="Shelf5" acceptedElement="BlueCubeVeryLarge"/>
+    </solutionobject>
+  </level>
+  <level scene="Bedroom" nbElementsToPlace="2" difficulty="ELEMENTARY">
+    <placeddecor name="desk"/>
+    <placeddecor name="Nighttable"/>
+    <element pos="P2" name="GreenCubeLight"/>
+    <element pos="P6" name="GreenCubeVeryDark"/>
+    <solutionobject pos="ShelfPos1" name="Shelf" acceptedElements="GreenCubes" targetedSkill="B25" nbSol2Find="2">
+      <element pos="Shelf5" name="GreenCubeVeryLight"/>
+      <element pos="Shelf2" name="GreenCubeDark"/>
+      <element pos="Shelf3" name="GreenCubeNormal"/>
+      <solutionarea pos="Shelf1" acceptedElement="GreenCubeVeryDark"/>
+      <solutionarea pos="Shelf4" acceptedElement="GreenCubeLight"/>
+    </solutionobject>
+  </level>
+</flatModel4Unity:Game>
