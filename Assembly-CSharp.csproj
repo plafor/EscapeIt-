@@ -51,8 +51,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\BackScript.cs" />
-     <Compile Include="Assets\DistractorManager.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_New.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDir.cs" />
@@ -63,6 +61,7 @@
      <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_AutoRotate.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_LightFlicker.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
+     <Compile Include="Assets\Scripts\BackScript.cs" />
      <Compile Include="Assets\Scripts\Data\Element.cs" />
      <Compile Include="Assets\Scripts\Data\LevelData.cs" />
      <Compile Include="Assets\Scripts\Data\SolutionObject.cs" />
@@ -108,6 +107,7 @@
      <Compile Include="Assets\Scripts\Scripts 4 Preferences\MusicTheme.cs" />
      <Compile Include="Assets\Scripts\Scripts 4 Preferences\Preferences.cs" />
      <Compile Include="Assets\Scripts\Scripts 4 Preferences\Reinforcer.cs" />
+     <Compile Include="Assets\Scripts\Scripts 4 Scenes\DistractorManager.cs" />
      <Compile Include="Assets\Scripts\Scripts 4 Scenes\FeedbacksManager.cs" />
      <Compile Include="Assets\Scripts\Scripts 4 Scenes\Help.cs" />
      <Compile Include="Assets\Scripts\Scripts 4 Scenes\InitGameElements.cs" />
@@ -131,8 +131,8 @@
      <Compile Include="Assets\Scripts\Scripts for Menu\ButtonProfile.cs" />
      <Compile Include="Assets\Scripts\Scripts for Menu\ChildName.cs" />
      <Compile Include="Assets\Scripts\Scripts for Menu\LoadScenariosFromResources.cs" />
+     <Compile Include="Assets\Scripts\Scripts for Menu\LoadSceneWithListScenarios.cs" />
      <Compile Include="Assets\Scripts\Scripts for Menu\SoundManagerScript.cs" />
-     <Compile Include="Assets\Scripts\testaaa.cs" />
      <Compile Include="Assets\Simple UI\Samples\IconPreview.cs" />
      <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
      <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
