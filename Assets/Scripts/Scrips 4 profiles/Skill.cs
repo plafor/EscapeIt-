@@ -11,6 +11,8 @@ public class Skill
     public bool m_acquired;
     public int consecutiveSuccess;
 
+	private bool changeLevel = false;
+
     //CONSTRUCTEURS
     public Skill(bool active, Mastery mastery, bool acquired, int cSuccess)
     {
@@ -24,6 +26,7 @@ public class Skill
             m_acquired = false;
         }
         consecutiveSuccess = cSuccess;
+		changeLevel = false;
     }
     public Skill(bool active, Mastery mastery) : this(active, mastery, false, 0){ }
     public Skill(): this(true, Mastery.Beginner) { }
@@ -75,11 +78,14 @@ public class Skill
                 if(m_mastery < Mastery.Expert)
                 {
                     m_mastery++;
+					changeLevel = true;
                 }
             }
             else
             {
-                consecutiveSuccess++;
+				if (!changeLevel) {
+					consecutiveSuccess++;
+				}
             }
         }
 
