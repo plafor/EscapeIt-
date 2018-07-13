@@ -20,8 +20,12 @@ public class ManageExit : MonoBehaviour {
 	}
 
 	IEnumerator LoadNextScene(){
-		yield return new WaitForSeconds(2.0f); // wait time
+		GameObject zoomManager = GameObject.Find ("ZoomManager");
+		zoomManager.GetComponent<zoomin> ().activeZoomIn ();
+		yield return new WaitForSeconds(1.1f); // wait time
+
 		GameManager manager = GameObject.FindObjectOfType<GameManager>();
+
 		if (manager.currentScene <= manager.maxScenes) {
             SceneManager.LoadScene("GuidanceScreen");
         }else {

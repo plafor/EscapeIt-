@@ -134,6 +134,7 @@
      <Compile Include="Assets\Scripts\Scripts for Menu\LoadSceneWithListScenarios.cs" />
      <Compile Include="Assets\Scripts\Scripts for Menu\SoundManagerScript.cs" />
      <Compile Include="Assets\Simple UI\Samples\IconPreview.cs" />
+     <Compile Include="Assets\zoomin.cs" />
      <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
      <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
      <None Include="Assets\Resources\XMLFiles\B08 in BEDROOM - KITCHEN-1 - EXPERT - 4 levels.xml" />
