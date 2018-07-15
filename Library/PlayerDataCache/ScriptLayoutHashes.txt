@@ -1,4 +1,4 @@
-Android
+WebGL
 SceneListBegin?
 Assets/Scenes/LoaderGameManager.unity
 Assets/Scenes/Menu.unity
@@ -7,7 +7,7 @@ Assets/Scenes/GameStructure.unity
 Assets/Scenes/Gymnasium.unity
 Assets/Scenes/Bedroom.unity
 Assets/Scenes/Kitchen-1.unity
-Assets/Scenes/ProfileScreen.unity
+Assets/Scenes/old/ProfileScreen.unity
 Assets/Scenes/ProfileChoice.unity
 Assets/Scenes/ProfileSettings.unity
 Assets/Scenes/ScenarioQuantityChoice.unity
@@ -40,6 +40,7 @@ df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.T
 0e7159abd7fb8e0c435fc74325924d02 Assembly-CSharp.dll:.SkillRowScript
 ec1c20e10291091ac654b7da45e71ffe Assembly-CSharp.dll:.LockSetter
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.startLevelScript
+76e06ba249210c5086ddfccdba52b57c Assembly-CSharp.dll:.IconPreview
 3efcf30b20d78c4257e4d505292dae49 Assembly-CSharp.dll:.GameManager
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.TouchManagerTuto
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
@@ -143,6 +144,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 3f32f08a64daf40b09ed864d96fe3840 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DistractorManager
 a4a4a9ebaac5ee83108d395bd0984118 Assembly-CSharp.dll:.ProfileCreator
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SizerSauzer
@@ -208,11 +210,11 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ManageHidingObjects
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.zoomin
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GeneratorXMLCreator
 c47490fa307cee6284f63319cbbf4e54 Assembly-CSharp.dll:.ManageTouch
 b04f70c3c9adc43a1317bafae92f5cbc Assembly-CSharp.dll:.ChestManager
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.testaaa
 fbeeb64ef9c207f160d5e89bbf4c1cc3 Assembly-CSharp.dll:.TouchManagerFind
 c0d50f6ab55f430dbe6c61300c84e723 Assembly-CSharp.dll:.Variables
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Authentication
@@ -223,6 +225,7 @@ c0d50f6ab55f430dbe6c61300c84e723 Assembly-CSharp.dll:.Variables
 e6d81874bb18510be1f37517431a3315 Assembly-CSharp.dll:.LockSystem
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LoadingCircle
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Loader
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LoadSceneWithListScenarios
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.StructureButton
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DisconnectButton
 344b7bed8660220510b046f90391e074 Assembly-CSharp.dll:.SettingsManager
